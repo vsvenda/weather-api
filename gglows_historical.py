@@ -16,10 +16,8 @@ import sys
 # ----------------------------------------------------------------------------------------------------------------------
 
 # Define river ids (LINKNO) and names
-river_ids = [220252711, 220249952, 220212799, 220227955, 220232074,
-             220267840, 220302223, 220284319, 220348963]
-meteo_stations = ["Uvac", "Kokin Brod", "Bistrica", "Piva", "HS Prijepolje",
-                  "Potpeć", "Višegrad", "Bajina Bašta", "Zvornik"]
+river_ids = [220252711, 220249952, 220212799]
+meteo_stations = ["Uvac", "Kokin Brod", "Bistrica"]
 # Create river dictionary
 river_dict = dict(zip(river_ids, meteo_stations))
 
